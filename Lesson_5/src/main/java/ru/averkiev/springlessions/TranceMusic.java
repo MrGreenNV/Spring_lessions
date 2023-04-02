@@ -1,5 +1,8 @@
 package ru.averkiev.springlessions;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TranceMusic implements Music {
 
     private TranceMusic() {
