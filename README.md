@@ -7,3 +7,4 @@ Lesson_4 - factory method, destroy/init method
 Lesson_5 - annotation @Component
 Lesson_6 - annotation DI
 Lesson_7 - annotation @Scope, @Value, @PostConstruct, @PreDestroy
+Lesson_8 - Spring Java-based configuration
