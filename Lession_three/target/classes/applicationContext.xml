@@ -29,6 +29,7 @@
     </util:list>
 
         <bean id="musicPlayer"
+              scope="prototype"
           class="ru.averkiev.springlessions.MusicPlayer">
             <property name="musicList" ref="musicList"/>
             <property name="name" value="${musicPlayer.name}"/>
