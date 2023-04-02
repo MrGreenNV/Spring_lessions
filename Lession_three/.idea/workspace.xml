@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="Create and update TestSpring.java" />
+    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="changed applicationContext.xml, MusicPlayer.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +51,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.averkiev.springlessions.TestSpring" />
+      <module name="Lession_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.averkiev.springlessions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSpring" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680430622478</updated>
-      <workItem from="1680430623516" duration="3302000" />
+      <workItem from="1680430623516" duration="8342000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project">
       <created>1680430662194</created>
@@ -81,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680435904297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete TestBean.java&#10;add RockMusic.java, TranceMusic.java, ClassicalMusic.java&#10;update TestSpring.java&#10;changed applicationContext.xml">
+      <created>1680442167402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680442167402</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed applicationContext.xml, TestSpring.java">
+      <created>1680443366906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680443366906</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed applicationContext.xml, MusicPlayer.java">
+      <created>1680446267325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680446267325</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +133,9 @@
     <MESSAGE value="Create new project" />
     <MESSAGE value="Create and change TestBean.java, applicationContext.xml" />
     <MESSAGE value="Create and update TestSpring.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create and update TestSpring.java" />
+    <MESSAGE value="delete TestBean.java&#10;add RockMusic.java, TranceMusic.java, ClassicalMusic.java&#10;update TestSpring.java&#10;changed applicationContext.xml" />
+    <MESSAGE value="changed applicationContext.xml, TestSpring.java" />
+    <MESSAGE value="changed applicationContext.xml, MusicPlayer.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed applicationContext.xml, MusicPlayer.java" />
   </component>
 </project>
