@@ -1,22 +1,35 @@
 package ru.averkiev.springlessions;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
-    private ClassicalMusic classicalMusic;
-    private RockMusic rockMusic;
+    private Music classicalMusic;
+    private Music rockMusic;
+    private Music tranceMusic;
 
     @Autowired
-    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
+    public MusicPlayer(@Qualifier("classicalMusic") Music classicalMusic,
+                       @Qualifier("rockMusic") Music rockMusic,
+                       @Qualifier("tranceMusic") Music tranceMusic) {
         this.classicalMusic = classicalMusic;
         this.rockMusic = rockMusic;
+        this.tranceMusic = tranceMusic;
     }
 
     //IoC
-    public String playMusic() {
-        return "Playing: " + classicalMusic.getSong();
-//        System.out.println("Playing: " + rockMusic.getSong());
+    public String playMusic(Enum song) {
+        if (song == Songs.ROCK) {
+            return "Playing: " + rockMusic.getSong();
+        }
+        if (song == Songs.CLASSICAL) {
+            return "Playing: " + classicalMusic.getSong();
+        }
+        if (song == Songs.TRANCE) {
+            return "Playing: " + tranceMusic.getSong();
+        }
+        return "Err";
     }
 }

@@ -2,25 +2,23 @@ package ru.averkiev.springlessions;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+@Component
 public class TranceMusic implements Music {
 
-    private TranceMusic() {
+    private static List<String> songs = new ArrayList<>();
 
-    }
-
-    public static TranceMusic getTranceMusic() {
-        return new TranceMusic();
-    }
-    public void doMyInit() {
-        System.out.println("Initialisation");
+    static {
+        songs.add("Till the Sky");
+        songs.add("Invisible Touch");
+        songs.add("Let go");
     }
 
-    public void doMyDestroy() {
-        System.out.println("Destruction");
-    }
     @Override
     public String getSong() {
-        return "Till the Sky";
+        return songs.get(new Random().nextInt(3));
     }
 }
