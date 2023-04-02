@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="create Lesson_8&#10;changed Lesson_7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Songs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/Songs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TranceMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessons/TranceMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="add SpringConfig.java&#10;delete applicationContext.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +87,7 @@
       <workItem from="1680451983407" duration="1109000" />
       <workItem from="1680453282928" duration="5216000" />
       <workItem from="1680459540811" duration="2090000" />
-      <workItem from="1680461689206" duration="2462000" />
+      <workItem from="1680461689206" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project">
       <created>1680430662194</created>
@@ -207,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680461793581</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add SpringConfig.java&#10;delete applicationContext.xml">
+      <created>1680464214098</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680464214098</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +220,7 @@
     <MESSAGE value="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java" />
     <MESSAGE value="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java, applicationContext.xml, pom.xml" />
     <MESSAGE value="create Lesson_8&#10;changed Lesson_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Lesson_8&#10;changed Lesson_7" />
+    <MESSAGE value="add SpringConfig.java&#10;delete applicationContext.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SpringConfig.java&#10;delete applicationContext.xml" />
   </component>
 </project>
