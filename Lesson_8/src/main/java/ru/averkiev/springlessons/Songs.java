@@ -1,4 +1,4 @@
-package ru.averkiev.springlessions;
+package ru.averkiev.springlessons;
 
 public enum Songs {
     CLASSICAL,

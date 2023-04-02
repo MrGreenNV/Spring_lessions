@@ -1,4 +1,4 @@
-package ru.averkiev.springlessions;
+package ru.averkiev.springlessons;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component
-@Scope("singleton")
 public class TranceMusic implements Music {
 
     private List<String> songs = new ArrayList<>();

@@ -1,4 +1,4 @@
-package ru.averkiev.springlessions;
+package ru.averkiev.springlessons;
 
 import org.springframework.stereotype.Component;
 
@@ -6,15 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component
-public class ClassicalMusic implements Music {
-
+public class RockMusic implements Music {
     private List<String> songs = new ArrayList<>();
 
     {
-        songs.add("Hungarian Rhapsody");
-        songs.add("Spring");
-        songs.add("Symphony №9");
+        songs.add("Nobody");
+        songs.add("Kill4Me");
+        songs.add("Du hast");
     }
 
     @Override
