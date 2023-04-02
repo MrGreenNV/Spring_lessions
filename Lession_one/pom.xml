@@ -4,6 +4,10 @@
   <groupId>ru.averkiev.springlessions</groupId>
   <artifactId>Lession_one</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>Lession_one Maven Webapp</name>
   <url>http://maven.apache.org</url>
