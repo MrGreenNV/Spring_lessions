@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="Create and update TestSpring.java" />
+    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="Create and update TestSpring.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +60,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.averkiev.springlessions.TestSpring" />
+      <module name="Lession_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.averkiev.springlessions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSpring" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680430622478</updated>
-      <workItem from="1680430623516" duration="3302000" />
+      <workItem from="1680430623516" duration="4351000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project">
       <created>1680430662194</created>
