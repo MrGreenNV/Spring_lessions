@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java" />
+    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TranceMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlessions/TranceMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_6",
+    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +99,7 @@
       <workItem from="1680447572806" duration="2482000" />
       <workItem from="1680451983407" duration="1109000" />
       <workItem from="1680453282928" duration="5216000" />
+      <workItem from="1680459540811" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project">
       <created>1680430662194</created>

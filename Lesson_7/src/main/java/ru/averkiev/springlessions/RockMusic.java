@@ -8,9 +8,9 @@ import java.util.Random;
 
 @Component
 public class RockMusic implements Music {
-    private static List<String> songs = new ArrayList<>();
+    private List<String> songs = new ArrayList<>();
 
-    static {
+    {
         songs.add("Nobody");
         songs.add("Kill4Me");
         songs.add("Du hast");

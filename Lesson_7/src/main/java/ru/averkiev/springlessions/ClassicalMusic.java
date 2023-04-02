@@ -9,9 +9,9 @@ import java.util.Random;
 @Component
 public class ClassicalMusic implements Music {
 
-    private static List<String> songs = new ArrayList<>();
+    private List<String> songs = new ArrayList<>();
 
-    static {
+    {
         songs.add("Hungarian Rhapsody");
         songs.add("Spring");
         songs.add("Symphony №9");
