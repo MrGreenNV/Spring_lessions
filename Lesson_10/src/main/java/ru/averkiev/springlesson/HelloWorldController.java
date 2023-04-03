@@ -9,5 +9,4 @@ public class HelloWorldController {
     public String sayHello() {
         return "hello_world";
     }
-
 }
