@@ -10,3 +10,4 @@ Lesson_7 - annotation @Scope, @Value, @PostConstruct, @PreDestroy
 Lesson_8 - Spring Java-based configuration
 Lesson_9 - Create Spring MVC project with configuration XML
 Lesson_10 - Change configuration on java class
+Lesson_11 - Controllers
