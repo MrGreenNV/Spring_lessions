@@ -9,13 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="add PeopleController.java, PersonDAO.java, Person.java">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +71,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "36ef073006345f98a91babe9e736d256",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -166,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680602863404</updated>
-      <workItem from="1680602864520" duration="5041000" />
+      <workItem from="1680602864520" duration="5233000" />
+      <workItem from="1680724748600" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -182,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680604682253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add PeopleController.java, PersonDAO.java, Person.java">
+      <created>1680611563637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680611563637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create empty mvc project" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add PeopleController.java, PersonDAO.java, Person.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PeopleController.java, PersonDAO.java, Person.java" />
   </component>
 </project>
