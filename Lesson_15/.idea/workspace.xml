@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="create Lesson_15&#10;update README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="fully implemented CRUD application with JdbcTemplate">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +184,7 @@
       <workItem from="1680758871901" duration="5953000" />
       <workItem from="1681025612816" duration="3631000" />
       <workItem from="1681029313561" duration="9696000" />
-      <workItem from="1681048804051" duration="4333000" />
+      <workItem from="1681048804051" duration="7855000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681048864752</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fully implemented CRUD application with JdbcTemplate">
+      <created>1681055291349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681055291349</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +299,7 @@
     <MESSAGE value="create Lesson_14&#10;update README.md" />
     <MESSAGE value="fully implemented CRUD application with JDBC API" />
     <MESSAGE value="create Lesson_15&#10;update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Lesson_15&#10;update README.md" />
+    <MESSAGE value="fully implemented CRUD application with JdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="fully implemented CRUD application with JdbcTemplate" />
   </component>
 </project>
