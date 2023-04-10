@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="add database.properties.origin">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/BatchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" afterDir="false" />
-    </list>
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="realised packed update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +186,7 @@
       <workItem from="1681025612816" duration="3631000" />
       <workItem from="1681029313561" duration="9696000" />
       <workItem from="1681048804051" duration="10354000" />
-      <workItem from="1681108157019" duration="5099000" />
+      <workItem from="1681108157019" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -287,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681061064215</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="realised packed update">
+      <created>1681129266968</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681129266968</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +317,7 @@
     <MESSAGE value="create Lesson_15&#10;update README.md" />
     <MESSAGE value="fully implemented CRUD application with JdbcTemplate" />
     <MESSAGE value="add database.properties.origin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add database.properties.origin" />
+    <MESSAGE value="realised packed update" />
+    <option name="LAST_COMMIT_MESSAGE" value="realised packed update" />
   </component>
 </project>

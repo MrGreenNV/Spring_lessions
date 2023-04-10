@@ -15,3 +15,4 @@
 #### Lesson_13 - CRUD, Pattern DAO, REST, annotation @ModelAttribute
 #### Lesson_14 - JDBC API
 #### Lesson_15 - JDBC_TEMPLATE
+#### Lesson_16 - Spring Validator
