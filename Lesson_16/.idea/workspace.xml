@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="add PersonValidator.java" />
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="add annotation Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,31 +60,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_16",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "36ef073006345f98a91babe9e736d256",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Documents/Programming/Spring_lessons/Lesson_16&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;36ef073006345f98a91babe9e736d256&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Documents\Programming\Spring_lessons\Lesson_15\src\main\webapp\WEB-INF\views\batch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Programming\Spring_lessons\Lesson_16\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,7 +194,8 @@
       <workItem from="1681029313561" duration="9696000" />
       <workItem from="1681048804051" duration="10354000" />
       <workItem from="1681108157019" duration="5182000" />
-      <workItem from="1681129485289" duration="2569000" />
+      <workItem from="1681129485289" duration="3367000" />
+      <workItem from="1681214598277" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -301,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681130664335</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add annotation Pattern">
+      <created>1681134059670</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681134059670</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +350,7 @@
     <MESSAGE value="realised packed update" />
     <MESSAGE value="update README.md&#10;create Lesson_16" />
     <MESSAGE value="add PersonValidator.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PersonValidator.java" />
+    <MESSAGE value="add annotation Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add annotation Pattern" />
   </component>
 </project>
