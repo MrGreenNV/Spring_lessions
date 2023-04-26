@@ -9,8 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="realised CRUD from Spring with Hibernate">
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="init Lesson_18&#10;update README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/services/PeopleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/classes/database.properties.origin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/classes/hibernate.properties.origin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties.origin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.properties.origin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_17",
+    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -191,6 +209,7 @@
       <workItem from="1681108157019" duration="5182000" />
       <workItem from="1682508910010" duration="324000" />
       <workItem from="1682509395633" duration="6313000" />
+      <workItem from="1682517754579" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -311,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682514123802</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="init Lesson_18&#10;update README.md">
+      <created>1682517889746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682517889746</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +371,7 @@
     <MESSAGE value="realised packed update" />
     <MESSAGE value="init 17 Lesson" />
     <MESSAGE value="realised CRUD from Spring with Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="realised CRUD from Spring with Hibernate" />
+    <MESSAGE value="init Lesson_18&#10;update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Lesson_18&#10;update README.md" />
   </component>
 </project>
