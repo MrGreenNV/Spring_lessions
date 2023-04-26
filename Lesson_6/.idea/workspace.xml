@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java" />
+    <list default="true" id="6334307a-6110-4c34-9835-e013436a3230" name="Changes" comment="add Songs.java&#10;changed TranceMusic.java, TestSpring.java, MusicPlayer.java, RockMusic.java, ClassicalMusic.java">
+      <change beforePath="$PROJECT_DIR$/../Lesson_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +56,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "3c85522d0874402d6b515ad868bce882",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,6 +93,7 @@
       <workItem from="1680447572806" duration="2482000" />
       <workItem from="1680451983407" duration="1109000" />
       <workItem from="1680453282928" duration="5216000" />
+      <workItem from="1681244511628" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Create new project">
       <created>1680430662194</created>
