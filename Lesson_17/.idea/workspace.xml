@@ -9,21 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="realised packed update">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties.origin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/.idea/dataSources/f58f3810-fb8d-4c83-a3ba-9fbec60af9f6/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_16/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_16/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_8/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0133e765-8bdb-40a6-a701-2a333bf3112c" name="Changes" comment="init 17 Lesson">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/controller/BatchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/dao/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/averkiev/springlesson/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/batch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lesson_13/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_15",
+    "last_opened_file_path": "E:/Documents/Programming/Spring_lessons/Lesson_17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -203,6 +205,7 @@
       <workItem from="1681048804051" duration="10354000" />
       <workItem from="1681108157019" duration="5182000" />
       <workItem from="1682508910010" duration="324000" />
+      <workItem from="1682509395633" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="create empty mvc project">
       <created>1680604564019</created>
@@ -302,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681129266968</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init 17 Lesson">
+      <created>1682509430013</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682509430013</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init 17 Lesson">
+      <created>1682510095390</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682510095390</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +351,7 @@
     <MESSAGE value="fully implemented CRUD application with JdbcTemplate" />
     <MESSAGE value="add database.properties.origin" />
     <MESSAGE value="realised packed update" />
-    <option name="LAST_COMMIT_MESSAGE" value="realised packed update" />
+    <MESSAGE value="init 17 Lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 17 Lesson" />
   </component>
 </project>
