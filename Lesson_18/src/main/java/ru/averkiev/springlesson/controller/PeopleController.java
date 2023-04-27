@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.averkiev.springlesson.models.Person;
+import ru.averkiev.springlesson.services.ItemsService;
 import ru.averkiev.springlesson.services.PeopleService;
 
 @Controller
@@ -14,16 +15,24 @@ import ru.averkiev.springlesson.services.PeopleService;
 public class PeopleController {
 
     private final PeopleService peopleService;
+    private final ItemsService itemsService;
 
     @Autowired
-    public PeopleController(PeopleService peopleService) {
+    public PeopleController(PeopleService peopleService, ItemsService itemsService) {
         this.peopleService = peopleService;
+        this.itemsService = itemsService;
     }
 
     @GetMapping()
     public String index(Model model) {
         // Получаем всех людей из DAO и передадим на отображение в Thymeleaf на представление
         model.addAttribute("people", peopleService.findAll());
+
+        itemsService.findByName("Airpods");
+        itemsService.findByOwner(peopleService.findOne(5));
+
+        peopleService.test();
+
         return "people/index";
     }
 
@@ -73,4 +82,6 @@ public class PeopleController {
         peopleService.delete(id);
         return "redirect:/people";
     }
+
+
 }

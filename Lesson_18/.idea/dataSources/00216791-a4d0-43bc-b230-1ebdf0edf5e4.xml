@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>4094</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4131</IntrospectionStateNumber>
       <ServerVersion>15.2</ServerVersion>
-      <StartupTime>1682494088</StartupTime>
+      <StartupTime>1682577839</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -805,7 +805,7 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>4094</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4131</IntrospectionStateNumber>
       <ObjectId>16581</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4228,30 +4228,92 @@ false Zulu
     <schema id="264" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>4094</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4131</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <sequence id="265" parent="264" name="person_id_seq">
+    <sequence id="265" parent="264" name="item_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16693</ObjectId>
+      <StateNumber>4108</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="266" parent="264" name="person_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16685</ObjectId>
       <StateNumber>4084</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="266" parent="264" name="person">
-      <ObjectId>16686</ObjectId>
-      <StateNumber>4084</StateNumber>
+    <table id="267" parent="264" name="item">
+      <ObjectId>16694</ObjectId>
+      <StateNumber>4116</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <check id="267" parent="266" name="person_age_check">
+    <table id="268" parent="264" name="person">
+      <ObjectId>16686</ObjectId>
+      <StateNumber>4130</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="269" parent="267" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>4108</StateNumber>
+      <SequenceId>16693</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="270" parent="267" name="person_id">
+      <DasType>integer|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>4108</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="271" parent="267" name="name">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>4108</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="272" parent="267" name="item_person_id_fkey">
+      <ColNames>person_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16699</ObjectId>
+      <OnDelete>set-null</OnDelete>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>4108</StateNumber>
+      <RefTableId>16686</RefTableId>
+      <RefTableName>person</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="273" parent="267" name="item_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16697</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>4108</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="274" parent="267" name="item_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16698</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>4108</StateNumber>
+      <UnderlyingIndexId>16697</UnderlyingIndexId>
+    </key>
+    <check id="275" parent="268" name="person_age_check">
       <ColNames>age</ColNames>
       <ObjectId>16689</ObjectId>
       <Predicate>(age &gt;= 0) AND (age &lt; 100)</Predicate>
       <StateNumber>4084</StateNumber>
     </check>
-    <column id="268" parent="266" name="id">
+    <column id="276" parent="268" name="id">
       <DasType>integer|0s</DasType>
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
@@ -4260,21 +4322,39 @@ false Zulu
       <SequenceId>16685</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="269" parent="266" name="name">
+    <column id="277" parent="268" name="name">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>4084</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="270" parent="266" name="age">
+    <column id="278" parent="268" name="age">
       <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>4084</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="271" parent="266" name="person_pkey">
+    <column id="279" parent="268" name="date_of_birth">
+      <DasType>date|0s</DasType>
+      <Position>4</Position>
+      <StateNumber>4114</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="280" parent="268" name="created_at">
+      <DasType>timestamp|0s</DasType>
+      <Position>5</Position>
+      <StateNumber>4119</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="281" parent="268" name="mood">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>7</Position>
+      <StateNumber>4130</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="282" parent="268" name="person_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16690</ObjectId>
@@ -4283,7 +4363,7 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="272" parent="266" name="person_pkey">
+    <key id="283" parent="268" name="person_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16691</ObjectId>
       <Primary>1</Primary>
