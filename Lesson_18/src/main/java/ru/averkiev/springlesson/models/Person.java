@@ -112,10 +112,6 @@ public class Person {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", dateOfBirth=" + dateOfBirth +
-                ", createdAt=" + createdAt +
-                ", items=" + items +
-                ", mood=" + mood +
                 '}';
     }
 }

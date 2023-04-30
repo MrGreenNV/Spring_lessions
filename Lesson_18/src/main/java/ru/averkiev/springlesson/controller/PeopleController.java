@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.averkiev.springlesson.models.Person;
+import ru.averkiev.springlesson.models.PersonDAO;
 import ru.averkiev.springlesson.services.ItemsService;
 import ru.averkiev.springlesson.services.PeopleService;
 
@@ -16,22 +17,25 @@ public class PeopleController {
 
     private final PeopleService peopleService;
     private final ItemsService itemsService;
+    private final PersonDAO personDAO;
 
     @Autowired
-    public PeopleController(PeopleService peopleService, ItemsService itemsService) {
+    public PeopleController(PeopleService peopleService, ItemsService itemsService, PersonDAO personDAO) {
         this.peopleService = peopleService;
         this.itemsService = itemsService;
+        this.personDAO = personDAO;
     }
 
     @GetMapping()
     public String index(Model model) {
         // Получаем всех людей из DAO и передадим на отображение в Thymeleaf на представление
-        model.addAttribute("people", peopleService.findAll());
+//        model.addAttribute("people", peopleService.findAll());
+        personDAO.testNPlusOne();
 
-        itemsService.findByName("Airpods");
-        itemsService.findByOwner(peopleService.findOne(5));
+//        itemsService.findByName("Airpods");
+//        itemsService.findByOwner(peopleService.findOne(5));
 
-        peopleService.test();
+//        peopleService.test();
 
         return "people/index";
     }
