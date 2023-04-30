@@ -15,16 +15,20 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http
+                .csrf().disable()
                 .authorizeHttpRequests((authz) -> authz
-                        .requestMatchers("/auth/login", "/error").permitAll()
+                        .requestMatchers("/auth/login", "/auth/registration", "/error").permitAll()
                         .anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults())
                 .formLogin().loginPage("/auth/login")
                 .loginProcessingUrl("/process_login")
                 .defaultSuccessUrl("/hello", true)
-                .failureUrl("/auth/login?error");
+                .failureUrl("/auth/login?error")
+                .and()
+                .logout().logoutUrl("/logout")
+                .logoutSuccessUrl("/auth/login");
         return http.build();
     }
 
@@ -32,7 +36,6 @@ public class SecurityConfig {
 //    public BCryptPasswordEncoder encoder() {
 //        return new BCryptPasswordEncoder();
 //    }
-
 
     @Bean
     public PasswordEncoder getPasswordEncoder() {
