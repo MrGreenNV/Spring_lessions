@@ -17,4 +17,6 @@
 #### Lesson_15 - JDBC_TEMPLATE
 #### Lesson_16 - Spring Validator
 #### Lesson_17 - Spring app with Hibernate Demo
-#### Lesson_17 - Spring JPA app Demo
+#### Lesson_18 - Spring JPA app Demo
+#### Lesson_19 - Spring Boot Demo
+#### Lesson_20 - Spring Security Demo
