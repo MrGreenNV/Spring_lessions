@@ -3,6 +3,7 @@ package ru.averkiev.springlesson.services;
 import org.springframework.stereotype.Service;
 import ru.averkiev.springlesson.models.Person;
 import ru.averkiev.springlesson.repositories.PeopleRepository;
+import ru.averkiev.springlesson.util.PersonNotFoundException;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,7 +22,7 @@ public class PeopleService {
 
     public Person findOne(int id) {
         Optional<Person> foundPerson = peopleRepository.findById(id);
-        return foundPerson.orElse(null);
+        return foundPerson.orElseThrow(PersonNotFoundException::new);
     }
 
 }
