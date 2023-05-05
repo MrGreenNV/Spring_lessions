@@ -1,6 +1,11 @@
 package ru.averkiev.springlesson.models;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
+
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "Person")
@@ -12,20 +17,34 @@ public class Person {
     private int id;
 
     @Column(name = "name")
+    @NotEmpty(message = "name not empty!")
+    @Size(min = 2, max = 30, message = "name > 2 and name < 30!")
     private String name;
 
     @Column(name = "age")
-    private int year;
+    @Min(value = 0, message = "Age >= 0!")
+    private int age;
 
     @Column(name = "email")
+    @NotEmpty(message = "email not empty")
     private String email;
+
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
+
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
+
+    @Column(name = "created_who")
+    @NotEmpty
+    private String createdWho;
 
     public Person() {
     }
 
-    public Person(String name, int year, String email) {
+    public Person(String name, int age, String email) {
         this.name = name;
-        this.year = year;
+        this.age = age;
         this.email = email;
     }
 
@@ -45,12 +64,12 @@ public class Person {
         this.name = name;
     }
 
-    public int getYear() {
-        return year;
+    public int getAge() {
+        return age;
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getEmail() {
@@ -61,13 +80,36 @@ public class Person {
         this.email = email;
     }
 
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public String getCreatedWho() {
+        return createdWho;
+    }
+
+    public void setCreatedWho(String createdWho) {
+        this.createdWho = createdWho;
+    }
 
     @Override
     public String toString() {
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", year=" + year +
+                ", year=" + age +
                 ", email='" + email + '\'' +
                 '}';
     }
