@@ -18,4 +18,5 @@ public class Computer {
     public String toString() {
         return "Computer" + id + " " + musicPlayer.playMusic(Songs.TRANCE);
     }
+
 }
