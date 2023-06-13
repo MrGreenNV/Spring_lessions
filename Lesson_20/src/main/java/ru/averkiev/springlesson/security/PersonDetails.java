@@ -7,7 +7,7 @@ import ru.averkiev.springlesson.models.Person;
 import java.util.Collection;
 import java.util.Collections;
 
-public class PersonDetails implements UserDetails {
+public class PersonDetails implements UserDetails { 
 
     private final Person person;
 
